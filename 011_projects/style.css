@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(28, 26, 26);
+    color: white;
+}
+nav{
+    list-style-type: none;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    font-size: 45px;
+}
+nav div{
+    display: inline;
+    padding: 5px;
+    border: 2px solid white;
+}
+h1{
+    text-align: center;
+}
+
+.canva{
+    padding: 100px;
+    text-align: center;
+}
+
+.button{
+    margin: 20px;
+    padding: 100px;
+    height: 20px;
+}
+#grey{
+    background-color: grey;
+    border: 2px solid white;
+}
+#yellow{
+    background-color: yellow;
+    border: 2px solid white;
+}
+
+#green{
+    background-color: green;
+    border: 2px solid white;
+}
+#orange{
+    background-color: orange;
+    border: 2px solid white;
+}
+#blue{
+    background-color: blue;
+    border: 2px solid white;
+}
+h2{
+    text-align: center;
+}
