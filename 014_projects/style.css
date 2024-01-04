@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(27, 26, 26);
+}
+nav{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(161, 157, 157);
+}
+nav a{
+    border: 2px solid white;
+    margin: 5px;
+    padding: 9px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#wrapper{
+    background-color: grey;
+    text-align: center;
+    border: 2px solid rgb(248, 247, 247);
+    width: 50%;
+    margin: auto;
+}
+#Subt{
+    width: 10%;
+    background-color: rgb(128, 186, 209);
+    border-radius: 5px;
+    margin: 05px;
+}
+#Subt:hover{
+    background-color: rgb(182, 172, 24);
+}
