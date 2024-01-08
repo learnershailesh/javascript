@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event pages</title>
+</head>
+<body style="background-color: #414144; color: white;">
+    <h1>good images</h1>
+    <ul id="images">
+        <li><img src="https://images.pexels.com/photos/719396/pexels-photo-719396.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+             alt=""></li>
+             <li><img src="https://img.freepik.com
+                /free-photo/painting-mountain-lake-with-mountain-background_188544-9126.
+                jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704672000&semt=sph" alt=""></li>
+                <li><img id="dear" src="https://t4.ftcdn.net/jpg/05/57/57/63/360_F_557576322_am5DuFwdo7GNMlKh3kCfTvKVxDMaKPNL.jpg" 
+                    alt="" onclick=""></li>
+                    <li><img src="https://t3.ftcdn.net/jpg/05/62/54/02/360_F_562540214_unXDmpcHlTdImYhQE7dPBXZEWfFyAeeH.jpg" 
+                        alt=""></li>
+    </ul>
+</body>
+<script>
+    document.getElementById('images').addEventListener('click', function(e){
+        alert("clicked in ul")
+    },false);
+    document.getElementById('dear').addEventListener('click',function(e){
+        alert("clicked on dear");
+        e.stopPropagation();
+    }, false)
+</script>
+</html>
